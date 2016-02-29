@@ -2,3 +2,7 @@
 #![feature(slice_patterns)]
 mod q074376;
 pub use q074376::q074376;
+
+// http://codegolf.stackexchange.com/q/74273/3808
+mod q074273;
+pub use q074273::q074273;
