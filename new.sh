@@ -24,6 +24,8 @@ then
 fi
 
 cat <<EOF > $filename
+// http://codegolf.stackexchange.com/q/$1/3808
+
 pub fn q$id() {
 }
 

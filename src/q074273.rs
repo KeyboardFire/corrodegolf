@@ -1,3 +1,5 @@
+// http://codegolf.stackexchange.com/q/74273/3808
+
 // this is implemented as an infinite iterator
 // letters is the input array, curr is the thing we're about to yield
 // curr is stored as an easier format and converting to a string on the fly
