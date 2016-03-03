@@ -51,5 +51,5 @@ pub fn q074273(letters: String) -> AllStrings {
 
 #[test]
 fn test074376() {
-    assert_eq!(vec!["", "a", "b", "aa", "ab", "ba", "bb", "aaa", "aab"], q074273("ab".to_string()).take(9).collect::<Vec<String>>());
+    assert_eq!(q074273("ab".to_string()).take(9).collect::<Vec<String>>(), vec!["", "a", "b", "aa", "ab", "ba", "bb", "aaa", "aab"]);
 }
